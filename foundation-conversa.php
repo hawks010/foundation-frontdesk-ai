@@ -3,7 +3,7 @@
 Plugin Name: Foundation: Frontdesk AI
 Plugin URI: https://github.com/hawks010/foundation-frontdesk-ai
 Description: A minimal, accessible chat & contact widget. Self-hosted, fast, and private—route messages to your inbox or (optionally) your AI assistant. Part of the Foundation plugin series by Inkfire Limited.
-Version: 1.0.11
+Version: 1.0.12
 Author: Sonny x Inkfire
 Author URI: https://inkfire.co.uk/
 Text Domain: foundation-frontdesk
@@ -20,7 +20,7 @@ if (!defined('ABSPATH')) exit;
 // -----------------------------------------------------------------------------
 // Core constants
 // -----------------------------------------------------------------------------
-if (!defined('FND_CONVERSA_VERSION')) define('FND_CONVERSA_VERSION', '1.0.11');
+if (!defined('FND_CONVERSA_VERSION')) define('FND_CONVERSA_VERSION', '1.0.12');
 if (!defined('FND_CONVERSA_FILE'))    define('FND_CONVERSA_FILE', __FILE__);
 if (!defined('FND_CONVERSA_PATH'))    define('FND_CONVERSA_PATH', plugin_dir_path(__FILE__));
 if (!defined('FND_CONVERSA_URL'))     define('FND_CONVERSA_URL',  plugin_dir_url(__FILE__));
