@@ -176,9 +176,9 @@ class Foundation_Conversa_Admin {
 
     public static function add_admin_menu() {
         global $admin_page_hooks;
-        $parent_slug = 'foundation-by-inkfire';
+        $parent_slug = self::parent_menu_slug();
 
-        if (empty($admin_page_hooks[$parent_slug])) {
+        if (!self::use_core_parent_menu() && empty($admin_page_hooks[$parent_slug])) {
             add_menu_page(
                 __('Foundation','foundation-conversa'),
                 __('Foundation','foundation-conversa'),
@@ -199,6 +199,14 @@ class Foundation_Conversa_Admin {
             'foundation-conversa-settings',
             [__CLASS__, 'render_settings_page']
         );
+    }
+
+    private static function use_core_parent_menu(): bool {
+        return function_exists('fnd_conversa_core_is_available') && fnd_conversa_core_is_available();
+    }
+
+    private static function parent_menu_slug(): string {
+        return self::use_core_parent_menu() ? 'foundation-core' : 'foundation-by-inkfire';
     }
 
     public static function enqueue_admin_assets($hook) {

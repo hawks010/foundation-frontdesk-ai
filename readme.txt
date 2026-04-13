@@ -2,8 +2,8 @@
 Contributors: inkfire
 Tags: chat, contact form, helpdesk, inbox, accessibility, ai, widget
 Requires at least: 5.5
-Tested up to: 6.5
-Stable tag: 1.0.12
+Tested up to: 6.9
+Stable tag: 1.0.13
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,6 +13,9 @@ A minimal, accessible chat & contact widget. Self-hosted, fast, and private—ro
 Foundation: Frontdesk AI is part of the Foundation plugin series by Inkfire Limited — a suite of modular, minimal tools for clean, performant WordPress sites.
 
 == Changelog ==
+
+= 1.0.13 =
+* Added Foundation Core registration, diagnostics breadcrumbs, lightweight health checks, Core menu handoff, and safe-mode isolation support.
 
 = 1.0.12 =
 * Synced the dashboard with the canonical shared Foundation admin shell assets.

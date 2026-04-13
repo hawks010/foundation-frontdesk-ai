@@ -46,7 +46,9 @@ class Foundation_Conversa_Onboarding {
     }
 
     public static function add_hidden_wizard_page() {
-        $parent_slug = 'foundation-by-inkfire';
+        $parent_slug = function_exists('fnd_conversa_core_is_available') && fnd_conversa_core_is_available()
+            ? 'foundation-core'
+            : 'foundation-by-inkfire';
         if (empty($GLOBALS['admin_page_hooks'][$parent_slug])) $parent_slug = 'options-general.php';
 
         add_submenu_page(
