@@ -303,7 +303,7 @@ class Foundation_Conversa_Admin {
                 ],
                 [
                     'label' => __('GitHub backup', 'foundation-conversa'),
-                    'href' => 'https://github.com/hawks010/foundation-frontdesk-ai',
+                    'href' => 'https://github.com/Inkfire-limited/foundation-frontdesk-ai',
                     'target' => '_blank',
                     'variant' => 'ghost',
                 ],

@@ -82,9 +82,9 @@ final class Foundation_Frontdesk_Github_Updater {
 	 * @return string
 	 */
 	private function get_repository() {
-		$repository = apply_filters( 'foundation_frontdesk_github_repository', 'hawks010/foundation-frontdesk-ai' );
+		$repository = apply_filters( 'foundation_frontdesk_github_repository', 'Inkfire-limited/foundation-frontdesk-ai' );
 
-		return is_string( $repository ) ? trim( $repository ) : 'hawks010/foundation-frontdesk-ai';
+		return is_string( $repository ) ? trim( $repository ) : 'Inkfire-limited/foundation-frontdesk-ai';
 	}
 
 	/**

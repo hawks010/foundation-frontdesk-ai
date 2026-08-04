@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Foundation: Frontdesk AI
-Plugin URI: https://github.com/hawks010/foundation-frontdesk-ai
+Plugin URI: https://github.com/Inkfire-limited/foundation-frontdesk-ai
 Description: A minimal, accessible chat & contact widget. Self-hosted, fast, and private—route messages to your inbox or (optionally) your AI assistant. Part of the Foundation plugin series by Inkfire Limited.
 Version: 1.0.13
 Author: Sonny x Inkfire
@@ -12,7 +12,7 @@ Requires at least: 5.5
 Tested up to: 6.9
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
-Update URI: https://github.com/hawks010/foundation-frontdesk-ai
+Update URI: https://github.com/Inkfire-limited/foundation-frontdesk-ai
 */
 
 if (!defined('ABSPATH')) exit;
